@@ -1,0 +1,39 @@
+.btn {
+  margin: 0 10px 0 0;
+}
+
+.btn:hover{
+  opacity:.8;
+}
+
+.btn1{
+  display: inline-block;
+  width:50px;
+  height: 30px;
+  background:red;
+  border-radius: 10px;
+  box-shadow: 0px 10px #993300;
+  color:white;
+  user-select: none;
+  cursor: pointer;
+}
+
+.btn1:active{
+  box-shadow: 0px 5px #993300;
+}
+
+.btn2{
+  display: inline-block;
+  width:50px;
+  height: 30px;
+  background: green;
+  border-radius: 10px;
+  box-shadow: 0px 10px #003300;
+  color:white;
+  user-select: none;
+  cursor: pointer;
+}
+
+.btn2:active{
+  box-shadow: 0px 5px #003300;
+}
